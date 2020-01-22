@@ -20,5 +20,8 @@ namespace PetGrooming.Data
         }
 
         public System.Data.Entity.DbSet<PetGrooming.Models.Pet> Pets { get; set; }
+        public System.Data.Entity.DbSet<PetGrooming.Models.Owner> Owners { get; set; }
+        public System.Data.Entity.DbSet<PetGrooming.Models.Groomer> Groomers { get; set; }
+        public System.Data.Entity.DbSet<PetGrooming.Models.GroomBooking> GroomBookings { get; set; }
     }
 }

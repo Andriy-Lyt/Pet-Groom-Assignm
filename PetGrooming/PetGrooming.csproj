@@ -150,6 +150,18 @@
     <Compile Include="Migrations\202001151608501_Core_Concepts.designer.cs">
       <DependentUpon>202001151608501_Core_Concepts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001170216064_Owner.cs" />
+    <Compile Include="Migrations\202001170216064_Owner.designer.cs">
+      <DependentUpon>202001170216064_Owner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001170227574_Groomer.cs" />
+    <Compile Include="Migrations\202001170227574_Groomer.designer.cs">
+      <DependentUpon>202001170227574_Groomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001170249190_GroomBooking.cs" />
+    <Compile Include="Migrations\202001170249190_GroomBooking.designer.cs">
+      <DependentUpon>202001170249190_GroomBooking.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\GroomBooking.cs" />
     <Compile Include="Models\Groomer.cs" />
@@ -229,6 +241,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001151608501_Core_Concepts.resx">
       <DependentUpon>202001151608501_Core_Concepts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001170216064_Owner.resx">
+      <DependentUpon>202001170216064_Owner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001170227574_Groomer.resx">
+      <DependentUpon>202001170227574_Groomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001170249190_GroomBooking.resx">
+      <DependentUpon>202001170249190_GroomBooking.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

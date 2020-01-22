@@ -21,5 +21,12 @@ namespace PetGrooming.Models
 
             A booking must reference to a groomer
         */
+        [Key]
+        public int GroomerId { get; set; }
+        public string GroomerFirstName { get; set; }
+        public string GroomerLastName { get; set; }
+        public string GroomerBirthDate { get; set; }
+        public string GroomerPhone { get; set; }
+        public string GroomerRate { get; set; }
     }
 }
